@@ -7,3 +7,6 @@
 
 # typo with license
 WHOASpineGX.ttf
+
+# node_modules dependencies folder
+node_modules/
