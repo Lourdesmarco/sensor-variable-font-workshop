@@ -1,0 +1,35 @@
+/* include local fonts */
+@font-face {
+    font-family: "KairosSans";
+    src: url("../KairosSans/KairosSans_Variable.ttf") format("truetype-variations");
+}
+
+
+
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;  
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* font-variation-settings: this property allows to access font variable axis*/
+    /* wght value: font weight axis 250-900 */
+    /* wdth value: font width axis 75-125 */
+    /* ital value:  font italic axis 0-1 */
+h1{
+    margin: 0;
+    font-family: "KairosSans";
+    font-variation-settings: "wght" 600, "wdth" 125;
+    font-size: 3em;
+    color: #00AEEF;
+}
+h2{
+    font-family: "KairosSans";
+    font-variation-settings: "wght" 300, "ital" 1;
+    color: gray;
+}
