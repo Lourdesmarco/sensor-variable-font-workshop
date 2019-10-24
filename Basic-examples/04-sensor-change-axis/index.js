@@ -34,6 +34,7 @@ console.log(`App served at http://localhost:${port}`);
 const five = require("johnny-five");
 
 let normalizedValue;
+let sensorValue;
 
 // Arduino access
 five.Board().on('ready', function () {
