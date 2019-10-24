@@ -10,3 +10,5 @@ WHOASpineGX.ttf
 
 # node_modules dependencies folder
 node_modules/
+yarn.lock
+*.log
