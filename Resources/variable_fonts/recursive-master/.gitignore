@@ -1,0 +1,13 @@
+.DS_Store
+venv
+node_modules
+
+*varfontprep*
+*.ttx
+
+mastering/build/*
+node_modules
+instances
+*/instances/*
+*/instances
+*glyph_widths.json

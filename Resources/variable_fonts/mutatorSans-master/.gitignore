@@ -1,0 +1,11 @@
+Batch Generated Variable Fonts Report.txt
+*.
+*.fdk
+debug_preview.ufo
+Previews
+temp_*
+instances
+MutatorSave_VFExport
+master_otf
+master_ttf
+variable_ttf

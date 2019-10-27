@@ -54,7 +54,7 @@ five.Board().on('ready', function () {
       // Normalize function
       // Constrain: limit max. and min. values
       // Map: data equivalence sensor (min, max) to font axis (min, max)
-      normalizedValue = five.Fn.constrain(five.Fn.map(sensorValue, 2, 25, 900, 250), 250, 900);
+      normalizedValue = five.Fn.constrain(five.Fn.map(sensorValue, 2, 25, 250, 900), 250, 900);
       //console.log(sensorValue);
     });
   });
@@ -75,3 +75,4 @@ io.on('connection', function (socket) {
       socket.emit('sendNormalizedValue', normalizedValue, sensorValue)
     }, 1000)
 });
+// *******************************************
