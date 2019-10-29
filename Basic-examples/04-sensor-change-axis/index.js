@@ -70,9 +70,9 @@ io.on('connection', function (socket) {
     // Connection log
     console.log(`cliente: ${socket.id}`)
   
-    // envio el valor cada X tiempo al cliente
+    // Send value every certain amount of time to the client
     setInterval(() => {
-      socket.emit('sendNormalizedValue', normalizedValue, sensorValue)
+      socket.emit('sendNormalizedValue', normalizedValue)
     }, 1000)
 });
 // *******************************************
