@@ -1,6 +1,6 @@
 // *******************************************
 // Express - Config. App
-//'use strict';
+'use strict';
 
 // require express (Framework for Node.js server)
 const express = require('express'); 
