@@ -15,7 +15,7 @@ window.onload = function() {
     const socket = io();
 
     // Listen server sensor values emit by socket.io
-    socket.on('sendNormalizedValue', function (normalizedValue, sensorValue) {
+    socket.on('sendNormalizedValue', function (normalizedValue) {
 
         // get the subtitle DOM element
         let subtitle = document.querySelector("#subtitle");
