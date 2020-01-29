@@ -22,7 +22,7 @@ body{
 h1{
     margin: 0;
     font-family: "KairosSans";
-    font-variation-settings: "wght" 600, "wdth" 125;
+    font-variation-settings: "wght" 600, "wdth" 75;
     font-size: 3em;
     color: #00AEEF;
 }
